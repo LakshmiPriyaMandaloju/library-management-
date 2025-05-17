@@ -1,0 +1,123 @@
+Style.css
+			#box{
+				height: 300px;
+				width: 300px;
+				background: rgba(0,0,0,0.7);
+				border-radius: 5px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				color: white;
+            }
+
+
+			body{
+				background:url("bg.jpg");
+				background-size: cover;
+				}
+			#header{
+				height: 100px;
+				width: 100%;
+				background: rgba(255,255,255,0.5);
+				display: flex;
+				
+				}
+			#logo{
+				height: 100px;
+				width: 10%;
+				background: rgba(255,255,255,0.5);
+				}
+			img{
+				clip-path: circle(50%);
+				}
+			#heading{
+				height: 100px;
+				width: 40%;
+				background: rgba(255,255,255,0.5);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				}
+			#navi{
+				height: 100px;
+				width: 50%;
+				background: rgba(255,255,255,0.5);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				}
+			#links{
+				background: rgb(148,175,205);
+				}
+				a{
+					text-decoration: none;
+					color: white;
+					}
+			ul li{
+				display: inline-block;
+				padding: 0px 30px; 
+				}
+			ul li:hover{
+				display: inline-block;
+				padding: 0px 30px; 
+				background: rgba(0, 0, 0, 0.5);
+				border-radius: 20px;
+				}
+			#body{
+				height: 800px;
+				width: 100%;
+				background: rgba(255,255,255,0.5);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				}
+			#body1{
+				height: 800px;
+				width: 80%;
+				background: rgba(255,255,255,0.5);
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				}
+			p{
+				padding: 0px 30px;
+				}
+			#footer{
+				height: 300px;
+				width: 100%;
+				background: rgba(255,255,255,0.5);
+				display: flex;
+				}
+			#fleft{
+				height: 300px;
+				width: 50%;
+				background: rgba(255,255,255,0.5);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				
+				}
+			#fleft img{
+				margin: 10px 40px;
+				display :flex;
+				flex-direction: column;
+				}
+			#fleft img:hover{
+				margin: 10px 40px;
+				border: 3px solid red;
+				border-radius: 40%;
+				
+				}
+			#fright{
+				height: 300px;
+				width: 50%;
+				background: rgba(255,255,255,0.5);
+				display: flex;
+				align-items: center;  
+				}
+			#social{
+				display: flex;
+				flex-direction: row;
+			}	
